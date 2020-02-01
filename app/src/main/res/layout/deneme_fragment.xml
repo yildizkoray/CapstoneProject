@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lytDeneme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.koray.capstoneproject.tabfragment.RecommendFragment">
+
+    <RelativeLayout
+        android:background="@color/blue_grey_800"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lstMovieRecom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/segmentedButtonGroup"
+            android:divider="#b5b5b5"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_selector">
+        </ListView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

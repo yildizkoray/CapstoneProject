@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgMoviePoster"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/poster_image_bg"
+        android:padding="3dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txtMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/imgMoviePoster"
+        android:layout_toRightOf="@id/imgMoviePoster"
+        android:textColor="@color/amber_800"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMovieName"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/imgMoviePoster"
+        android:textColor="@color/amber_800"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtGenre"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/imgMoviePoster"
+        android:textColor="@color/amber_800"
+        android:textSize="20sp" />
+
+</RelativeLayout>

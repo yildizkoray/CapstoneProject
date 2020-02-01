@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "133492198213",
+    "firebase_url": "https://movie-recommendation-a8e51.firebaseio.com",
+    "project_id": "movie-recommendation-a8e51",
+    "storage_bucket": "movie-recommendation-a8e51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133492198213:android:929148a142dc4aac",
+        "android_client_info": {
+          "package_name": "com.example.koray.capstoneproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133492198213-0roilqf61essgnqrvh6nqaoabs4qopf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.koray.capstoneproject",
+            "certificate_hash": "7be0c142f9ec672ae4b905b205ac3220d2f73548"
+          }
+        },
+        {
+          "client_id": "133492198213-73g7c5agonkaf3f7fh6eb12s5a6d28s8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.koray.capstoneproject",
+            "certificate_hash": "c2461a88e368678fbffb3eaaeefd3e569bcf6396"
+          }
+        },
+        {
+          "client_id": "133492198213-tmger9v2e74q0nprn7af7sg96hlh3bnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtzbS_x9i5FX9qpK3mVYUkIkH-N5xag58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133492198213-tmger9v2e74q0nprn7af7sg96hlh3bnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

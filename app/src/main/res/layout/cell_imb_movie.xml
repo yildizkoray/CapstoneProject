@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:padding="10dp">
+
+    <ImageView
+        android:src="@drawable/imdb128"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+
+    <ImageView
+        android:id="@+id/imgImdbMoviePoster"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/poster_image_bg"
+        android:padding="3dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txtImdbMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imgImdbMoviePoster"
+        android:text="@string/slide_1_title"
+        android:textColor="@color/amber_800"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtImdbMovieGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtImdbMovieName"
+        android:layout_toEndOf="@+id/imgImdbMoviePoster"
+        android:textColor="@color/amber_800"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtImdbMovieYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtImdbMovieGenre"
+        android:layout_toEndOf="@+id/imgImdbMoviePoster"
+        android:text="2012"
+        android:textColor="@color/amber_800"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtListCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="1"
+        android:textColor="@color/amber_800"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+</RelativeLayout>

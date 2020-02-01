@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lytMovieSelection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.koray.capstoneproject.activities.MovieSelectionActivity">
+
+
+
+    <RelativeLayout
+        android:background="#A6212121"
+        android:id="@+id/lytSubMovieSelection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:background="@null"
+            android:text="Kapat"
+            android:id="@+id/btnExit"
+            android:textSize="20sp"
+            android:textColor="@drawable/movieselectbutton_selector"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:layout_toStartOf="@id/imgSelectMoviePoster">
+
+
+            <ImageButton
+                android:visibility="invisible"
+                android:id="@+id/imgButtonTrailer"
+                android:background="@null"
+                android:src="@drawable/playimagebutton"
+                android:layout_centerInParent="true"
+                android:layout_width="64dp"
+                android:layout_height="64dp" />
+
+            <Button
+                android:textSize="20sp"
+                android:id="@+id/btnSelectSkip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:textColor="@drawable/movieselectbutton_selector"
+                android:drawableTop="@drawable/next32"
+                android:gravity="center"
+                android:text="Atla" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/imgSelectMoviePoster">
+
+            <Button
+                android:textSize="20sp"
+                android:id="@+id/btnSelectNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:drawableTop="@drawable/star"
+                android:text="Puan ver"
+                android:textColor="@color/amber_800" />
+        </RelativeLayout>
+
+        <RatingBar
+            android:id="@+id/rtBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgSelectMoviePoster"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:numStars="10"
+            android:theme="@style/RatingBar"
+            android:stepSize="1" />
+
+        <TextView
+            android:id="@+id/rateStars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rtBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:text=""
+            android:textColor="@color/amber_800"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtSelectMovieName"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imgSelectMoviePoster"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textColor="@color/amber_800"
+            android:textSize="25sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imgSelectMoviePoster"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/poster_image_bg"
+            android:padding="5dp"
+            android:src="@drawable/poster2" />
+    </RelativeLayout>
+</RelativeLayout>

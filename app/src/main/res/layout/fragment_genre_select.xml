@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_grey_500"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.koray.capstoneproject.tabfragment.ImdbGenreSelection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.2"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/amber_800"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Türünü seç, 10 film puanla. BAŞLA!"
+            android:textColor="@color/amber_800"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnActionGenre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/action"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btnAdventureGenre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/adventure"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btnAnimationGenre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/animation"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/biography"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/biography"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/biography"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/biography"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/biography"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/biography"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/biography"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/biography"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/biography"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custombutton"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/check24"
+                    android:gravity="left|center"
+                    android:paddingLeft="25dp"
+                    android:text="@string/biography"
+                    android:textColor="#ff8f00"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

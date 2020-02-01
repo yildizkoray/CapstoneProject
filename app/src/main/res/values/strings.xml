@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CapstoneProject</string>
+    <string name="facebook_app_id">494069010993174</string>
+    <string name="fb_login_protocol_scheme">fb494069010993174</string>
+    <string name="title">Capstone Project</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">İleri</string>
+    <string name="skip">Atla</string>
+    <string name="back">Geri</string>
+    <string name="start">Tamam</string>
+
+    <string name="action">Action</string>
+    <string name="adventure">Adventure</string>
+    <string name="animation">Animation</string>
+    <string name="biography">Biography</string>
+    <string name="comedy">Comedy</string>
+    <string name="crime">Crime</string>
+    <string name="documentary">Documentary</string>
+    <string name="drama">Drama</string>
+    <string name="family">Family</string>
+    <string name="fantasy">Fantasy</string>
+    <string name="filmnoir">Film-Noir</string>
+    <string name="history">History</string>
+
+
+    <string name="slide_1_title">Capstone Project</string>
+    <string name="slide_1_desc">Akıllı Film Tavsiyeleri</string>
+
+    <string name="slide_2_title">Capstone Nedir?</string>
+    <string name="slide_2_desc">CAPSTONE, film beğenilerini dikkate alarak öneri geliştiren mobil bir sosyal ağdır.Bunu yaparken sana beğeni yönünden en çok benzeyen kullanıcıları bulacağız.</string>
+
+    <string name="slide_3_title">Akıllı Liste</string>
+    <string name="slide_3_desc">Burası tavsiye bölümü.\nBurada sana özel hesaplanmış akıllı film tavsiyeleri yer alacak.</string>
+
+    <string name="slide_4_title">Artık Hazırsın</string>
+    <string name="slide_4_desc">Hepsi bu kadar!Artık CAPSTONE kullanmaya başlayabilirsin.\nİyi eğlenceler.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

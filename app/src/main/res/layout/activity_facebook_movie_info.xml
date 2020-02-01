@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lyLytFBMI"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.koray.capstoneproject.activities.FacebookMovieInfoActivity">
+
+    <RelativeLayout
+        android:background="#A6212121"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/actionimage_btn"
+            android:id="@+id/imgMoviePosterFBMI"
+            android:layout_width="300dp"
+            android:layout_height="400dp">
+        </ImageView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Name"
+            android:id="@+id/txtMovieNameFBMI"
+            android:textColor="@color/amber_800"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Genre"
+            android:layout_below="@+id/txtMovieNameFBMI"
+            android:id="@+id/txtMovieGenreFBMI"
+            android:textColor="@color/amber_800"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_below="@+id/txtMovieGenreFBMI"
+            android:text="Year"
+            android:id="@+id/txtMovieYearFBMI"
+            android:textColor="@color/amber_800"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Writer"
+            android:layout_below="@+id/txtMovieYearFBMI"
+            android:id="@+id/txtMovieWriterFBMI"
+            android:textColor="@color/amber_800"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/action"
+            android:layout_below="@id/imgMoviePosterFBMI"
+            android:id="@+id/txtMovieStarFBMI"
+            android:textColor="@color/amber_800"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>
